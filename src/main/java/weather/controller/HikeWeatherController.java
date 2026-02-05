@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import weather.dto.MountainWeatherResponse;
 import weather.service.WeatherService;
 
-@CrossOrigin(origins = "https://k7dre.github.io")
+@CrossOrigin(origins = "*")
 
 @RestController
 public class HikeWeatherController {

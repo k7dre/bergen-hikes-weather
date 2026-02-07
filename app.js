@@ -11,7 +11,7 @@ const dateFormatted = new Intl.DateTimeFormat("nb-NO", {
 let data = null;
 
 async function getData(){
-	const url = "https://bergenhikesweather.onrender.com/hikes/weather";
+	const url = "https://bergen-hikes-weather-1.onrender.com/hikes/weather";
 
 	try{
 		const response = await fetch(url);

@@ -18,6 +18,7 @@ public class HikeWeatherController {
 	
 	public HikeWeatherController(WeatherService service) {
 		this.service = service;
+		System.out.println(">>> HikeWeatherController constructed");
 	}
 
 	@GetMapping("/hikes/weather") 

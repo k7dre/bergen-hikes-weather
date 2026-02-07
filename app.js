@@ -39,9 +39,9 @@ function renderTable(data) {
 		const cellRain = row.insertCell();
 		
 		cellName.textContent = m.mountain;
-		cellTemp.textContent = m.temperature;
-		cellWind.textContent = m.windSpeed;
-		cellRain.textContent = m.precipitation;
+		cellTemp.textContent = `${m.temperature} °C`;
+		cellWind.textContent = `${m.windSpeed} m/s`;
+		cellRain.textContent = `${m.precipitation} mm`;
 	})
 }
 

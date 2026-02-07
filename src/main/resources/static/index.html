@@ -7,11 +7,11 @@
 		<script src="./app.js" defer></script>
 	</head>
 	<body>
-		<div id="root">				
+		<div id="root">
 			<h1 id="header"></h1>
-		
-			<!-- table inlined-->
-			<div id="table-wrapper">
+			
+			<div id="container">				
+			
 				<table>
 					<colgroup>
 						<col class="col-name">
@@ -20,11 +20,33 @@
 						<col class="col-value">
 					</colgroup>
 					
-					<th>					
-						<td>Temperatur</td>
-						<td>Vind</td>
-						<td>Regn</td>
-					</th>
+					<thead>	
+						<tr>
+							<th></th>				
+							<th>Temperatur</th>
+							<th>Vind</th>
+							<th>							
+								<svg
+									viewBox="2 2 20 20"
+									stroke="currentColor"
+									fill="none"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									aria-hidden="true"
+								>
+									<g transform="matrix(0.644235,-2.3495e-19,-2.3495e-19,0.915113,-0.0195849,2.43767)">
+							            <path d="M12.197,2.019c0.38,0.003 3.833,5.761 6.63,10.491c3.556,6.012 -2.225,7.732 -6.601,7.732c-4.375,0 -9.42,-2.375 -6.384,-7.689c2.729,-4.777 5.821,-10.539 6.355,-10.534Z" />
+							        </g>
+									
+							        <g transform="matrix(0.405696,-1.47955e-19,-1.47955e-19,0.576276,12.9593,1.58573)">
+							            <path d="M12.197,2.019c0.38,0.003 3.833,5.761 6.63,10.491c3.556,6.012 -2.225,7.732 -6.601,7.732c-4.375,0 -9.42,-2.375 -6.384,-7.689c2.729,-4.777 5.821,-10.539 6.355,-10.534Z" />
+							        </g>
+							    
+								</svg>
+							</th>
+						</tr>
+					</thead>
 				</table>
 			</div>
 			

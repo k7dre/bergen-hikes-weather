@@ -11,10 +11,10 @@ const dateFormatted = new Intl.DateTimeFormat("nb-NO", {
 let data = null;
 
 async function getData(){
-	const url = "https://bergen-hikes-weather-1.onrender.com/hikes/weather";
+	const API_BASE = "https://bergen7weather.onrender.com";
 
 	try{
-		const response = await fetch(url);
+		const response = await fetch(`${API_BASE}/hikes/weather`);
 		if (!response.ok) {
 			throw new Error(`Response status: ${response.status}`);
 		}

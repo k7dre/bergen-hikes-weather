@@ -2,6 +2,8 @@
 
 A simple web app that shows current weather conditions for the seven mountains surround the city of Bergen, Norway.
 
+🌍 **Live demo:** https://din-render-url.onrender.com
+
 The backend is a Spring Boot API that fetches live data from MET Norway (Nowcast API).  
 The frontend is a static site built with HTML, CSS, and JavaScript.
 
@@ -19,6 +21,9 @@ https://www.met.no/en/free-meteorological-data/
 - Spring Boot
 - Maven
 - HTML / CSS / JavaScript
+
+- ## Architecture
+Spring Boot backend consuming MET Norway API, serving weather data to a lightweight frontend.
 
 ## Status
 Student project between semesters. Frontend and backend are deployed separately.

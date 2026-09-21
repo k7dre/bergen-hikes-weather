@@ -2,7 +2,7 @@
 
 A simple web app that shows current weather conditions for the seven mountains surround the city of Bergen, Norway.
 
-🌍 **Live demo:** [https://din-render-url.onrender.com](https://bergen7weather.onrender.com)
+🌍 **Live demo:** https://bergen7weather.onrender.com
 
 The backend is a Spring Boot API that fetches live data from MET Norway (Nowcast API).  
 The frontend is a static site built with HTML, CSS, and JavaScript.
